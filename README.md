@@ -291,3 +291,14 @@ Almost daily updates of what's happening.
 * 23, 24 Oct 2021 - update 00 and 01 notebooks with more outline/code
 * 20 Oct 2021 - add v0 outlines for 01 and 02, add rough outline of course to README, this course will focus on less but better 
 * 19 Oct 2021 - Start repo 🔥, add fundamentals notebook draft v0
+
+# Setup
+
+```bash
+python3 -m venv myenv
+source myenv/bin/activate
+pip install jupyterlab
+source myenv/bin/activate
+jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
+```
+
